@@ -15,3 +15,11 @@ doc/*.txt
 
 # ignore all .pdf files in the doc/ directory
 doc/**/*.pdf
+
+# hide files with the extension .db, .log 
+*.log
+*.db
+
+# and directories with the names target or bin
+/target
+/bin
